@@ -1,3 +1,8 @@
+//Global Variables
+var startBtn = document.getElementById("startBtn");
+var quizContainer = document.getElementById("quizContainer")
+let i = 0
+
 //Quiz Questions
 var quizQuestions = [
     {
@@ -25,3 +30,19 @@ var quizQuestions = [
         answerChoice: ["1: Twitter", "2: Facebook", "3: Microsoft", "4: Apple"],
         correctAnswer: 0
     }];
+
+// Start Button
+startBtn.addEventListener("click", function() {
+    quizContainer.style.display = "block";
+    setQuizQuestions();
+});
+
+function setQuizQuestions() {
+    questions.textContent = quizQuestions[i].question;
+    choiceA.textContent = quizQuestions[i].answerChoice[0]; 
+    choiceB.textContent = quizQuestions[i].answerChoice[1]; 
+    choiceC.textContent = quizQuestions[i].answerChoice[2]; 
+    choiceD.textContent = quizQuestions[i].answerChoice[3]; 
+    };
+
+    
