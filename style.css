@@ -6,3 +6,60 @@
 h1 {
  font-size: 24px;   
 }
+
+.time {
+  float: right;
+}
+
+.score {
+  float: left;
+}
+
+#nav {
+  display: block;
+  display: inline-block;
+  background-color: grey;
+  width: 98vw;
+  border: 3px solid blue;
+  border-radius: 10px;
+
+}
+
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+#welcomeContainer {
+  text-align: center;
+  padding: 12vh;
+}
+
+h4 {
+  padding: 8px 8px 8px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  font-size: 17px;
+  font-family: sans-serif;
+
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  margin: 6px;
+  }
+
+button:hover {
+ background-color: red; 
+ transition-duration: 0.4s;
+}
+

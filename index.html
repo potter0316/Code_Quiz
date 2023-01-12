@@ -11,25 +11,22 @@
 </head>
 
 <body>
+  <div id="nav">
+    <!-- Score top left float-->
+    <div class="score">
+      <h4 >View Highscore</h4></a>
+    </div>
+    <!-- Timer top right float-->
+    <div class="time">
+      <h4>Time: <span id="timeRemaining">0</span></h4>
+    </div>
+  </div>
+  <div id="quiz">
   <div id="welcomeContainer">
     <h1>Welcome to the Code Quiz!</h1>
     <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answeres will penalize your score/time by ten seconds!</p> 
-   <button id="startBtn">Start Quiz</button></div>
-   <div id="quizContainer" style="display: none">
-    <h2 id="questions"></h2>
-    <ul>
-      <button id="choiceA">
-      </button>
-      <button id="choiceB">
-      </button>
-      <button id="choiceC">
-      </button>
-      <button id="choiceD">
-      </button>
-    </ul>
-   </div>
-   <section id="AnswerResponse"></section>
-   <script src="./script.js"></script>
+   <button onclick="start()">Start Quiz</button></div>
+   <script src="./script.js"></script></div>
   </body>    
 </html>
  
